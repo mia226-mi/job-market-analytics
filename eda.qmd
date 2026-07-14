@@ -1,0 +1,59 @@
+---
+title: "Exploratory Data Analysis"
+author:
+  - name: Meera Chaddha
+    affiliations:
+      - id: bu
+        name: Boston University
+        city: Boston
+        state: MA
+format:
+  html:
+    toc: true
+---
+
+## Visualization Theme
+
+To maintain a consistent visual style across the EDA page, all Plotly charts are embedded using full-width display and standardized dimensions. Consistent chart sizing and layout improve readability and make it easier to compare job postings, salary distributions, remote work trends, skills, job titles, and geographic patterns across the dataset.
+
+## Job Postings by Industry
+
+```{=html}
+<iframe src="figures/job_postings_by_industry.html" width="100%" height="600px"></iframe>
+```
+
+## Salary Distribution by Industry
+
+```{=html}
+<iframe src="figures/salary_by_industry.html" width="100%" height="600px"></iframe>
+```
+
+## Remote vs. On-Site Jobs
+
+```{=html}
+<iframe src="figures/remote_vs_onsite.html" width="100%" height="600px"></iframe>
+```
+
+## Top 20 In-Demand Skills
+
+```{=html}
+<iframe src="figures/top_skills.html" width="100%" height="600px"></iframe>
+```
+
+## Top 15 Job Titles
+
+```{=html}
+<iframe src="figures/top_job_titles.html" width="100%" height="600px"></iframe>
+```
+
+## Salary by Job Title
+
+```{=html}
+<iframe src="figures/salary_by_title.html" width="100%" height="600px"></iframe>
+```
+
+## Job Postings by State
+
+```{=html}
+<iframe src="figures/job_postings_by_state.html" width="100%" height="600px"></iframe>
+```

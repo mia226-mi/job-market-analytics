@@ -1,0 +1,58 @@
+---
+title: "Advanced Visualizations"
+author:
+  - name: Meera Chaddha
+    affiliations:
+      - id: bu
+        name: Boston University
+        city: Boston
+        state: MA
+format: 
+  html:
+    bibliography: references.bib
+    csl: csl/econometrica.csl
+    toc: true
+---
+## Visualization Theme
+
+All advanced visualizations on this page are built using Plotly and are based on the cleaned Lightcast 2024 job postings dataset (72,477 records). Charts are embedded using full-width display and standardized dimensions to maintain visual consistency. These visualizations go beyond exploratory analysis to uncover deeper patterns in skill demand trends, industry hiring behavior, and the flow of roles and skills across sectors.
+
+## Top 10 Skills Ranked by Month (2024) - Bump Chart
+
+Use the dropdown menu at the top left of the chart to filter by job title and explore how skill rankings shift across May–September 2024.
+
+```{=html}
+<iframe src="figures/bump_chart_skills.html" width="100%" height="650px" frameborder="0"></iframe>
+```
+
+## Skills Landscape by Industry (Interactive) - Treemap
+
+**How to Use:** Use the dropdown menu at the top left to select an industry. The treemap will update to show only the job titles and skills relevant to that sector.
+
+```{=html}
+<iframe src="figures/treemap_skills_interactive.html" width="100%" height="750px" frameborder="0"></iframe>
+```
+
+## Industry → Job Title → Skills Flow - Sankey
+
+**How to Read:** Left (blue) = Industries, Middle (red) = Job Titles, Right (green) = Skills. Band width represents number of job postings.
+
+```{=html}
+<iframe src="figures/sankey_skills.html" width="100%" height="650px" frameborder="0"></iframe>
+```
+
+## Job Title Demand by Industry - Heatmap
+
+Shows the number of job postings per job title across industries. Darker cells indicate higher demand.
+
+```{=html}
+<iframe src="figures/heatmap_titles.html" width="100%" height="550px" frameborder="0"></iframe>
+```
+
+## Connection to Outside Data Source
+
+The World Economic Forum projects a shift in automation versus augmentation from 2025 to 2030 [@zahidi2025wef]. Figures show an eventual even split between work performed by people, technology, or a combination of the two. This sheds light on the significance of the top skills discovered in the dataset. An understanding of data analytics and programming are projected to remain as core skills sought after amongst the industries. But, as the necessity for a bridge between AI and human touch increases amongst the industries, it is strong communication skills that will work in tandem with these technical skills. 
+
+A projection of skill disruption in the next five years revealed that the top skill that will be sought after across industries will continue to be analytical thinking, followed by flexibility & agility. In the same time span, the highest skills on the rise will be AI & big data, followed by networks & cybersecurity. Looking at the job title demand by industry found in the visualizations above, this growth prediction is consistent with past job posting data. The emphasis on AI-related knowledge is already prevalent in today’s job market and aligns with future projections.
+
+## References
