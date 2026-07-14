@@ -3,7 +3,7 @@ title: "Advanced Visualizations"
 author:
   - name: Miao Liu
     affiliations:
-      - id: bu
+      - id: BU
         name: Boston University
         city: Boston
         state: MA
