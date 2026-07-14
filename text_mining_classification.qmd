@@ -2,7 +2,7 @@
 title: "Text Mining & Classification"
 subtitle: "Do These Roles Actually Require Machine Learning? Predicting ML/Data-Science Intensity in Business-Intelligence Job Postings"
 author:
-  - name: Simon Hamra
+  - name: Miao Liu
     affiliations:
       - id: bu
         name: Boston University

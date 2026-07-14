@@ -2,7 +2,6 @@
 title: "Data Analysis"
 subtitle: "Comprehensive Data Cleaning & Exploratory Analysis of Job Market Trends"
 author:
-  - name: Simon Hamra
   - name: Miao Liu
     affiliations:
       - id: bu

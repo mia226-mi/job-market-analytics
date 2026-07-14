@@ -1,5 +1,7 @@
 ---
 title: "KMeans Clustering Analysis"
+author:
+  - name: Miao Liu
 format:
   html:
     toc: true

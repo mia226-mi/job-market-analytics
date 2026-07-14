@@ -1,7 +1,7 @@
 ---
 title: "Job Market Analytics: Data Science & Business Analytics Trends (2024)"
-Author: Miao Liu
-
+author:
+  - name: Miao Liu
 ---
 **Tools:** Python | Pandas | Scikit-learn | Plotly | Quarto | GitHub Pages
 ---
