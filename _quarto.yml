@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  
+
 website:
   title: "Data Science & BA Trends"
   navbar:
@@ -12,8 +12,6 @@ website:
         text: "Data Analysis"
       - href: eda.qmd
         text: "Exploratory Analysis"
-      - href: skill_gap_analysis.qmd
-        text: "Skill Gap Analysis"
       - href: advanced_visualizations.qmd
         text: "Advanced Visualizations"
       - href: text_mining_classification.qmd
